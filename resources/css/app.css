@@ -1,0 +1,39 @@
+*{
+    font-family: 'system-ui', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+}
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+form button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #1b1b1b;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+div input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+div label {
+
+    margin-bottom: 0.5rem;
+}
+
